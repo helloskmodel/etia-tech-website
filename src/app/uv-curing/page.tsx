@@ -112,17 +112,17 @@ export default function UVCuringHome() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-8">技术资源</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/uv-curing/application-notes/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
+            <Link href="/technical-center/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
               <div className="text-3xl mb-3">📄</div>
               <h3 className="text-lg font-semibold mb-2">Application Notes</h3>
               <p className="text-sm text-slate-600">官方应用笔记，详细工艺参数和设备配置指南</p>
             </Link>
-            <Link href="/uv-curing/troubleshooting/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
+            <Link href="/technical-center/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
               <div className="text-3xl mb-3">🔧</div>
               <h3 className="text-lg font-semibold mb-2">故障排除指南</h3>
               <p className="text-sm text-slate-600">常见固化问题诊断和解决方案</p>
             </Link>
-            <Link href="/uv-curing/support/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
+            <Link href="/service/" className="p-6 rounded-xl border border-slate-200 hover:border-purple-300 transition-all">
               <div className="text-3xl mb-3">🛠️</div>
               <h3 className="text-lg font-semibold mb-2">技术支持</h3>
               <p className="text-sm text-slate-600">设备校准、维修保养、工艺调试服务</p>

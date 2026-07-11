@@ -72,9 +72,6 @@ export default function Header() {
                   <Link href="/uv-curing/applications/" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">
                     应用场景
                   </Link>
-                  <Link href="/uv-curing/industries/" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">
-                    应用行业
-                  </Link>
                   <Link href="/uv-curing/technologies/" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">
                     固化技术
                   </Link>

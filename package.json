@@ -4,16 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-sitemap.js && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "node scripts/generate-sitemap.js && next build",
-    "import": "node scripts/import-csv.js",
-    "sitemap": "node scripts/generate-sitemap.js"
+    "export": "next build",
+    "import": "node scripts/import-csv.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "next": "14.2.5",
+    "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
@@ -26,7 +25,7 @@
     "autoprefixer": "^10",
     "csv-parse": "^5.6.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "eslint-config-next": "14.2.35",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

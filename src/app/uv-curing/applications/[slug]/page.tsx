@@ -122,13 +122,13 @@ export default function UVApplicationDetail({ params }: { params: { slug: string
               <h3 className="font-semibold mb-4">相关资源</h3>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-purple-600">医疗UV粘接Application Note</Link>
+                  <Link href="/uv-curing/applications/" className="text-slate-700 hover:text-purple-600">浏览全部UV固化应用</Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-purple-600">光模块固化工艺指南</Link>
+                  <Link href="/uv-curing/technologies/" className="text-slate-700 hover:text-purple-600">UV固化技术介绍</Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-purple-600">UV固化常见问题排查</Link>
+                  <Link href="/technical-center/" className="text-slate-700 hover:text-purple-600">技术中心与工艺支持</Link>
                 </li>
               </ul>
             </div>

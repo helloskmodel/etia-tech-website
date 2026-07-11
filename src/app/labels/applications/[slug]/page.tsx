@@ -125,13 +125,13 @@ export default function LabelApplicationDetail({ params }: { params: { slug: str
               <h3 className="font-semibold mb-4">相关应用</h3>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-blue-600">SMT防静电标签</Link>
+                  <Link href="/labels/applications/" className="text-slate-700 hover:text-blue-600">浏览全部标签应用</Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-blue-600">电路板阻燃标签</Link>
+                  <Link href="/labels/industries/" className="text-slate-700 hover:text-blue-600">按行业查找方案</Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-700 hover:text-blue-600">BGA耐波峰焊标签</Link>
+                  <Link href="/labels/products/" className="text-slate-700 hover:text-blue-600">标签产品与材料</Link>
                 </li>
               </ul>
             </div>
